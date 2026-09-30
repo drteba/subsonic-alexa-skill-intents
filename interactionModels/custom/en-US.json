@@ -1,0 +1,214 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "kumbao",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      },
+      "intents": [
+        {
+          "name": "PlayArtistIntent",
+          "slots": [
+            {
+              "name": "artist",
+              "type": "AMAZON.MusicGroup"
+            }
+          ],
+          "samples": [
+            "play music by {artist}",
+            "play songs by {artist}",
+            "play something by {artist}",
+            "play {artist}",
+            "i want to listen to {artist}",
+            "play the artist {artist}",
+            "play the band {artist}"
+          ]
+        },
+        {
+          "name": "PlayAlbumIntent",
+          "slots": [
+            {
+              "name": "album",
+              "type": "AMAZON.MusicAlbum"
+            }
+          ],
+          "samples": [
+            "play the album {album}",
+            "play the record {album}",
+            "i want to listen to the album {album}",
+            "play the album called {album}"
+          ]
+        },
+        {
+          "name": "PlaySongIntent",
+          "slots": [
+            {
+              "name": "song",
+              "type": "AMAZON.MusicRecording"
+            }
+          ],
+          "samples": [
+            "play the song {song}",
+            "play the track {song}",
+            "i want to listen to the song {song}",
+            "play the song called {song}"
+          ]
+        },
+        {
+          "name": "PlayPlaylistIntent",
+          "slots": [
+            {
+              "name": "playlist",
+              "type": "AMAZON.MusicPlaylist"
+            }
+          ],
+          "samples": [
+            "play the playlist {playlist}",
+            "play my playlist {playlist}",
+            "i want to listen to the playlist {playlist}"
+          ]
+        },
+        {
+          "name": "PlayGenreIntent",
+          "slots": [
+            {
+              "name": "genre",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "samples": [
+            "play some {genre} music",
+            "play {genre} music",
+            "play music from the genre {genre}"
+          ]
+        },
+        {
+          "name": "PlayAnythingIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "search for {query}",
+            "search my music for {query}",
+            "play whatever you have of {query}"
+          ]
+        },
+        {
+          "name": "PlayRandomIntent",
+          "slots": [],
+          "samples": [
+            "play random music",
+            "play something random",
+            "play anything",
+            "surprise me",
+            "play music"
+          ]
+        },
+        {
+          "name": "PlayFavoritesIntent",
+          "slots": [],
+          "samples": [
+            "play my favourites",
+            "play my favorite songs",
+            "play my starred songs"
+          ]
+        },
+        {
+          "name": "PlayRecentIntent",
+          "slots": [],
+          "samples": [
+            "play what i listened to recently",
+            "play my recent music"
+          ]
+        },
+        {
+          "name": "NowPlayingIntent",
+          "slots": [],
+          "samples": [
+            "what is playing",
+            "what song is this",
+            "what are you playing"
+          ]
+        },
+        {
+          "name": "TransferPlaybackIntent",
+          "slots": [],
+          "samples": [
+            "continue here",
+            "keep playing here",
+            "move the music here",
+            "bring the music here",
+            "play it here",
+            "move the music to this device"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

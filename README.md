@@ -1,2 +1,2 @@
 # subsonic-alexa-skill-intents
-Alexa intents configuration required for subsonic skill
+Intents repository for Alexa Subsonic skill

@@ -1,0 +1,226 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "kumbao",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      },
+      "intents": [
+        {
+          "name": "PlayArtistIntent",
+          "slots": [
+            {
+              "name": "artist",
+              "type": "AMAZON.MusicGroup"
+            }
+          ],
+          "samples": [
+            "pon música de {artist}",
+            "pon canciones de {artist}",
+            "pon algo de {artist}",
+            "pon a {artist}",
+            "reproduce a {artist}",
+            "reproduce música de {artist}",
+            "quiero escuchar a {artist}",
+            "pon el artista {artist}",
+            "pon el grupo {artist}"
+          ]
+        },
+        {
+          "name": "PlayAlbumIntent",
+          "slots": [
+            {
+              "name": "album",
+              "type": "AMAZON.MusicAlbum"
+            }
+          ],
+          "samples": [
+            "pon el disco {album}",
+            "pon el álbum {album}",
+            "reproduce el disco {album}",
+            "reproduce el álbum {album}",
+            "quiero escuchar el disco {album}",
+            "pon el disco que se llama {album}"
+          ]
+        },
+        {
+          "name": "PlaySongIntent",
+          "slots": [
+            {
+              "name": "song",
+              "type": "AMAZON.MusicRecording"
+            }
+          ],
+          "samples": [
+            "pon la canción {song}",
+            "pon el tema {song}",
+            "reproduce la canción {song}",
+            "quiero escuchar la canción {song}",
+            "pon la canción que se llama {song}"
+          ]
+        },
+        {
+          "name": "PlayPlaylistIntent",
+          "slots": [
+            {
+              "name": "playlist",
+              "type": "AMAZON.MusicPlaylist"
+            }
+          ],
+          "samples": [
+            "pon la lista {playlist}",
+            "pon mi lista {playlist}",
+            "pon la lista de reproducción {playlist}",
+            "reproduce la lista {playlist}",
+            "quiero escuchar la lista {playlist}"
+          ]
+        },
+        {
+          "name": "PlayGenreIntent",
+          "slots": [
+            {
+              "name": "genre",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "samples": [
+            "pon música {genre}",
+            "pon algo de música {genre}",
+            "pon música del género {genre}",
+            "quiero escuchar música {genre}"
+          ]
+        },
+        {
+          "name": "PlayAnythingIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "busca {query}",
+            "busca en mi música {query}",
+            "pon lo que tengas de {query}"
+          ]
+        },
+        {
+          "name": "PlayRandomIntent",
+          "slots": [],
+          "samples": [
+            "pon música aleatoria",
+            "pon música al azar",
+            "pon cualquier cosa",
+            "sorpréndeme",
+            "pon música"
+          ]
+        },
+        {
+          "name": "PlayFavoritesIntent",
+          "slots": [],
+          "samples": [
+            "pon mis favoritos",
+            "pon mis canciones favoritas",
+            "pon mi música favorita"
+          ]
+        },
+        {
+          "name": "PlayRecentIntent",
+          "slots": [],
+          "samples": [
+            "pon lo último que he escuchado",
+            "pon lo que escuché hace poco",
+            "pon mis últimas escuchas"
+          ]
+        },
+        {
+          "name": "NowPlayingIntent",
+          "slots": [],
+          "samples": [
+            "qué está sonando",
+            "qué canción es esta",
+            "qué estás poniendo",
+            "qué suena ahora"
+          ]
+        },
+        {
+          "name": "TransferPlaybackIntent",
+          "slots": [],
+          "samples": [
+            "sigue aquí",
+            "continúa aquí",
+            "sigue sonando aquí",
+            "pon la música aquí",
+            "trae la música aquí",
+            "pásame la música aquí",
+            "mueve la música a este dispositivo",
+            "pon aquí lo que estaba sonando"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
